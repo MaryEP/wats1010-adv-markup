@@ -1,1 +1,111 @@
 /* Styles for the Advanced Markup assignment. */
+body {
+  font-family:Tahoma, Geneva, sans-serif;
+  background-color: lightblue;
+}
+h1 {
+  color:white;
+}
+nav ul li {
+  display: inline;
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 25px;
+}
+
+.bottom-nav {
+  padding-bottom:15px;
+}
+
+a:link {
+  color: black;
+  }
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: orange;
+}
+.active {
+  font-weight: bold;
+}
+
+#sidebar {
+  width: 250px;
+  float: right;
+  background-color: lightcyan;
+  line-height: 1.5;
+  padding: 15px;
+  margin: 20px 0px 20px 20px;
+  align:relative;
+    }
+
+.poem li {
+  list-style-type:none
+}
+
+.poem {
+  line-height: 1.5;
+  background-color: lightcyan;
+  width: 425px;
+  padding: 25px;
+  margin: 40px 10px 10px 10px;
+}
+
+#content .poem ::first-letter {
+  font-size: 1.2em;
+}
+
+#content p {
+  padding: 15px;
+  margin: 10px;
+ 
+}
+#content img { 
+  width:100ppx;
+  height: auto;
+  margin-left: 50px;
+}
+
+#content h2 {
+  padding: 15px;
+}
+
+.bio-photo {   
+  float:left;
+}
+.bio-photo img { 
+  width:90px;
+  height: auto;
+}
+ 
+#bio-summary {
+  padding:15px;
+}
+
+tr, th, td {
+  text-align: left;
+  padding: 8px;
+  background-color:lightcyan;
+}
+#selected_works h2 {
+  margin:0;
+}
+footer ul {
+  padding-top: 15px;
+  background-color: lightblue;
+  margin-top: 10px
+}
+
+footer p  {
+  font-size: smaller;
+}
+.bibliography {
+  font-size: smaller;
+}
+
+
+  
